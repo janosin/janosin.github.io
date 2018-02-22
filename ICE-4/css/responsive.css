@@ -1,0 +1,142 @@
+
+
+@media only screen and (min-width: 650px) and (max-width: 1000px) {
+	.top-nav ul {
+		width: 100%;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+
+	.top-nav li {
+		display: inline-block;
+
+	}
+    
+    
+    .top-nav ul li, .menu-icon{
+	border: 0px; 
+}
+    
+    
+    .main-content-home{
+	margin-top: 0;
+    
+}
+
+    .home-flag{
+        margin-top: 100px;
+    
+    }
+
+	.photo-cell:nth-child(3), .photo-cell:nth-child(4){
+  	width: 48%;
+    display: inline-block;
+    
+  }
+    
+    .photo-cell:nth-child(4) {
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    
+    .top-nav ul {
+		float: right;
+        margin-top: 1em;
+        
+	}
+    
+    .top-nav li {
+		display: inline-block;
+	}
+    
+    .top-nav ul li, .menu-icon{
+	border: 0px; 
+}
+
+    
+    
+    .logo {
+    display: inline-block;
+    float: left;
+  }
+    
+    
+    .main-content-home{
+	margin-top: 0;
+    
+}
+
+    .home-flag{
+        margin-top: 60px;
+    
+    }
+    
+     
+    
+    
+    .photo-grid {
+        display: grid;
+        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+   
+    .a { 
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 200%;
+}
+   .b { 
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        width: 200%;
+}
+    .c { 
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        
+}
+    
+    .d { 
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        
+}
+    
+    .e { 
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        width: 200%;
+        
+}
+   .f { 
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        width: 200%;
+        
+} 
+    .g { 
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        width: 200%;
+        
+}
+}
