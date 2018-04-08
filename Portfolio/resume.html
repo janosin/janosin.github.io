@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <title>Nicole's Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+    <script type="text/javascript">
+        function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+        
+        window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+      </script>
+    
+
+  </head>
+  <body>
+      <header>
+          
+         
+      <div class="header">
+          <a href="home.html" class="logo"><img src = "imgs/Artboard%201.png" alt = "logo"></a>
+
+        <nav id = "top-nav" class="top-nav">
+			
+	       <ul>
+	            <li><a  href="home.html">Home</a></li>
+	            <li><a href="aboutme.html">About</a></li>
+	            <li><a href="portfolio.html">Portfolio</a></li>
+               <div class="dropdown">
+                <li><a onclick="myFunction()" class="dropbtn" href = "#">&hellip;</a></li>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="resume.html">Resume</a>
+                    <a href="contact.html">Contact</a>
+                    
+                    </div>
+                </div>
+               <li><a class = "resume-nav current-page" href="resume.html">Resume</a></li>
+                <li><a class = "contact-nav" href="contact.html">Contact</a></li>
+                
+
+	        
+          </ul>   
+   		</nav>
+      </div>
+
+ </header>
+      <div class="container">
+  <div class="jumbotron jumbo-resume">
+    <h1>Resume</h1>
+      <p class = "p-resume"><a href = "https://umich.app.box.com/embed/s/mqpii0uguno8ip0q3t311bbtd3r44xka">Click</a> to view PDF of resume</p>
+      
+       </div>
+    </div>
+
+      
+      <img class = "resume-img" src="imgs/NJ-resume-2-4.jpg" alt = "resume">
+<div class="footer">
+  <p>&copy; 2017 Nicole Janosi</p>
+</div>
+
+</body>
+</html>

@@ -179,6 +179,24 @@ div.jumbotron h1 {
     
 }
 
+/*-----Resume-----*/
+.resume-img {
+    
+    
+   display: none;
+
+}
+
+.jumbo-resume {
+    margins: 10px;
+}
+
+.p-resume {
+    text-align: center;
+}
+
+
+
 /*Media querys */
 @media (min-width: 650px) {
     .resume-nav {
@@ -212,6 +230,21 @@ div.jumbotron h1 {
     display: inline;
         padding-bottom: 100px;
 }
+    .resume-img {
+        
+         margin: auto;
+        padding-bottom: 75px;
+        padding-right: 50px;
+        padding-left: 50px;
+        justify-content: center;
+        width: 100%;
+        display: block;
+    }
+    
+     .jumbo-resume {
+        display: none;
+    }
+    
 }
 
 
@@ -225,6 +258,12 @@ div.jumbotron h1 {
     text-align: right;
         padding-right: 75px;
 }
+    .resume-img {
+        
+        width: 90%;
+    }
+    
+   
     
    
     
