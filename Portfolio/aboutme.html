@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+    <script type="text/javascript">
+        function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+        
+        window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+      </script>
+    
+
+  </head>
+  <body>
+      <header>
+          
+         
+      <div class="header">
+          <a href="#default" class="logo"><img src = "imgs/Artboard%201.png" alt = "logo"></a>
+
+        <nav id = "top-nav" class="top-nav">
+			
+	       <ul>
+	            <li><a  href="index.html">Home</a></li>
+	            <li><a class="current-page" href="#">About</a></li>
+	            <li><a href="#">Portfolio</a></li>
+               <div class="dropdown">
+                <li><a onclick="myFunction()" class="dropbtn" href = "#">&hellip;</a></li>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Resume</a>
+                    <a href="#">Contact</a>
+                    
+                    </div>
+                </div>
+               <li><a class = "resume-nav" href="#">Resume</a></li>
+                <li><a class = "contact-nav" href="#">Contact</a></li>
+                </li>
+
+	        
+          </ul>   
+   		</nav>
+      </div>
+
+ </header>
+    
+    <div class="container">
+  <div class="jumbotron jumbo-abt">
+    <h1>About Me</h1> 
+    <img class = "img-self" src = "imgs/self1.png" alt = "Portrait of Nicole">
+    <p class = "about1">My name is Nicole Janosi. I’m a junior at the School of Information at the University of Michigan, specializing in User Experience Research and Design. In addition, I am also pursing a supplemental studies in Public Health. I’m passionate about creating digital solutions that will have a large social impact. Through the School of Information, I am developing skills and knowledge to design, build, and evaluate compelling interactive systems and have experience in UX research and design, programming, and graphic design. Currently, I am searching for an internship focusing on UX design and research for Summer 2018. </p>
+        
+      <p class = "about2">In my free time, you can find me in the student section, cheering on the Michigan basketball and football teams, volunteering with UNICEF at U-M, and playing with and leading my club soccer team, Victors FC. </p>
+      
+
+<p class = "about3">
+    <br>On this site, you’ll find my resume, examples of my work, and ways to contact me if you’d like to learn more. Feel free to reach out with any questions!</p> 
+  </div>
+    </div>
+    
+    
+<div class="footer">
+  <p>&copy; 2017 Nicole Janosi</p>
+</div>
+
+</body>
+</html>
