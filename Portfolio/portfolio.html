@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <title>Nicole's Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+    <script type="text/javascript">
+        function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+        
+        window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+      </script>
+    
+
+  </head>
+  <body>
+      <header>
+          
+         
+      <div class="header">
+          <a href="home.html" class="logo"><img src = "imgs/Artboard%201.png" alt = "logo"></a>
+
+        <nav id = "top-nav" class="top-nav">
+			
+	       <ul>
+	            <li><a  href="home.html">Home</a></li>
+	            <li><a href="aboutme.html">About</a></li>
+	            <li><a class = "current-page" href="portfolio.html">Portfolio</a></li>
+               <div class="dropdown">
+                <li><a onclick="myFunction()" class="dropbtn" href = "#">&hellip;</a></li>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="resume.html">Resume</a>
+                    <a href="contact.html">Contact</a>
+                    
+                    </div>
+                </div>
+               <li><a class = "resume-nav" href="resume.html">Resume</a></li>
+                <li><a class = "contact-nav" href="contact.html">Contact</a></li>
+                
+
+	        
+          </ul>   
+   		</nav>
+      </div>
+
+ </header>
+      
+<div class="container">
+  <div class="jumbotron jumbo-abt">
+    <h2 class = "portfolio-title">Projects</h2>
+      
+      <div class = "container proj">
+         
+              <h3> Unicorn Bubbles</h3>
+           <div class = "unicorn">
+              <div>
+              <img class = "unicorn-bubbles img1" src="imgs/unicorn2.png" alt = "Unicorn Bubbles hi fi mock up">
+              </div>
+              <div class="txt">
+              <p>Created high fidelity mockups of an iPad kiosk ordering application for a bubble tea restaurant called Unicorn Bubbles.</p>
+              </div>
+          </div>
+          
+              <h3> U-M Web Scheduler</h3>
+          <div class = "umweb">
+              <div><img class = "web-scheduler img1" src="imgs/Screen%20Shot%202018-01-15%20at%2011.39.11%20PM.png" alt = "Web Scheduler Screen Shot"></div>
+              <div>
+                  <p class = "um-text">Built a website which displays useful, up-to-date course information using data retrieved from the University of Michigan database of courses and course information using the U-M schedule API. View full site <a href = "http://mgo-scheduler.herokuapp.com/">here</a>.</p></div>
+          </div>
+          
+              <h3> Evaluation of Yelp's Website</h3>
+          <div class = "yelp-project">
+              <div><img class = "yelp img1" src="imgs/yelp-red-19201.jpg" alt = "yelp logo"></div>
+              <div><p>Evaluated Yelp’s website to determine how well it meets its goals and user needs. Collected and analyzed feedback through interviews and a series of UX research methods.</p></div>
+          </div>
+          
+              <h3>Tracking Tumblr Usage</h3>
+          <div class = "tum-project">
+              <div><img class = "tumblr img1" src="imgs/tumblr_logotype_white_blue_512.png" alt = "tumblr logo"></div>
+              <div><p>Wrote a program that retrieves recent posts on tumblr from a single user to determine the periods of time they are most active on tumblr.</p></div>
+          </div>
+          
+          
+      </div>
+      
+    <h2 class = "portfolio-design">Graphic Design</h2>
+      <div class = "design">
+          <p>Various projects created for my graphic design class using Adobe Photoshop and Illustrator.</p>
+          <div><img class = "ocean img2" src="imgs/Screen%20Shot%202018-01-21%20at%2010.01.34%20PM.png" alt = "Ocean Alphabet Poster" width = "300px">
+          
+          <img class = "botanical img2" src="imgs/botanical_strawberry.png" alt = "Botanical Strawberry Print"></div>
+          
+          <div><img class = "SIad img2" src="imgs/Screen%20Shot%202018-01-21%20at%2010.00.38%20PM.png" alt = "School of Information Ad">
+          
+          <img class = "banners img2" src="imgs/Screen%20Shot%202018-01-21%20at%209.58.43%20PM.png" alt = "School of Information Ad"></div>
+          
+          
+      </div>
+      
+    </div>
+      </div>
+
+
+
+
+
+<div class="footer">
+  <p>&copy; 2017 Nicole Janosi</p>
+</div>
+
+</body>
+</html>
