@@ -28,6 +28,15 @@ body {
     
 }
 
+.jumbotron p {
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.jumbotron {
+    margin-top: 25px !important;
+}
+
 
 
 /*-----Heading and navigation-----*/
