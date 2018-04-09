@@ -243,6 +243,7 @@ h2 {
 
 .proj {
     text-align: center;
+    padding-top: 0px !important; 
 }
 
 .tumblr {
