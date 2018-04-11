@@ -1,0 +1,84 @@
+body {
+    background-color: lightblue;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+input[type="submit"]{
+  
+  border: 1px solid #000;
+    width: 40%;
+    height: 35px;
+        border-radius: 4px;
+    
+  
+}
+
+.sub {
+    text-align: center;
+}
+
+input[type="submit"]:hover{
+    background-color: grey;
+    color: white;
+}
+
+button:hover {
+    
+    background-color: grey;
+    color: white;
+    
+}
+
+@media (min-width: 600px){
+    
+    input[type="submit"]{
+    
+    width: 85px;
+    height: 35px;
+        
+    }
+    
+    .sub {
+    text-align: left;
+}
+    
+}
+
+@media (min-width: 1000px) {
+    #basic1 {
+        display: inline;
+        width: 40%;
+        float: left;
+        margin-right: 20px;
+        margin-top: 19px;
+        height: 150px;
+        
+    }
+    #basic2 {
+        width: 40%;
+        display: inline;
+        height: 150px;
+        
+        
+    }
+    
+    #ed1 {
+        display: inline;
+        width: 40%;
+        float: left;
+        margin-right: 20px;
+        height: 115px;
+        
+    }
+    
+    #work1 {
+        
+        width: 40%;
+        display: inline;
+        height: 115px;
+        
+        
+    }
+        
+}
