@@ -1,0 +1,56 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/circles-dark.png");
+}
+
+#content {
+    display: flex;
+}
+
+#sec1 {
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+    width: 50%;
+    text-align: center;
+    
+    
+    
+}
+
+#sec2 {
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+    width:50%;
+    text-align: center;
+    
+    
+    
+}
+
+#sec1 img {
+    
+   padding: 5%;
+    margin: 0 auto;
+
+    
+       
+}
+
+#sec2 img {
+    
+    padding: 5%;
+    
+    
+}
+
+button {
+    width: 75px;
+    height: 20px;
+    margin-top: 5px;
+}
